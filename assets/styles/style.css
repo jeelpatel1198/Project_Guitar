@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(143,70,252,1) 100%);
+}
+.btnColor{
+    border: 1px solid #47135bf2;
+    background: #5c087df2;
+    color: #009fff;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.imgDiv{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.imgDiv span{
+    font-size: 27px;
+    color: #12327e;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.imgDiv p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #cdbfbf;
+    font-family: sans-serif;
+}
+.btnDiv{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btnDiv .left{
+    float: left;
+    padding: 10px 30px;
+}
+.btnDiv .right{
+    float: right;
+    padding: 10px 37px;
+}
+.clear{
+    clear: both;
+}
+.closeOpenDiv{
+   width: 400px;
+    margin: auto;
+    
+
+}
+.colDiv{
+    margin-top: 20px;
+    color: rgb(43, 41, 41);
+}
+/* second */
+.mainImg{
+    width: 1000px;
+    margin: auto;
+}
+
+.formDiv{
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    padding: 20px;
+}
+
+.head{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    color: #4e2065;
+    margin: 30px 0 0 0;
+}
+.imgDiv span{
+    color: #481563;
+    font-size: 24px;
+    font-family: sans-serif;
+}

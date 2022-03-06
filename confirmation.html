@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="imgDiv" style="display: block;">
+        <img src="guitarImages/firstguitar.jpg" alt="" id="imgdata" style="width: 100%; height: 100%;">
+    </div>
+    <p class="head">Confirmation</p>
+    <div class="imgDiv" style="height: auto; width: 700px;">
+       <span>Description:</span>
+       <p id="getdesc"></p>
+       <br/>
+       <span>Order No.:</span>
+       <p id="ono"></p>
+       <br>
+       <span>Price</span>
+       <p id="price"></p>
+       <br>
+       <span>Shipping Price</span>
+       <p id="shippingprice"></p>
+       <br>
+       <span>Final Price</span>
+       <p id="fprice"></p>
+    </div>
+    <div class="btnDiv mb-5">
+        
+        <button type="button" onclick="goHome()" class="btn btn-primary btnColor right">Go To Home</button>
+        <div class="clear"></div>
+    </div>
+
+   </div>
+
+<script src="confirmation.js"></script>
+</body>
+</html>

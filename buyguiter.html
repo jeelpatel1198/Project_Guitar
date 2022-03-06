@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-opacity-50">
+            <div class="container-fluid">
+              <a class="navbar-brand ps-3" href=""><img src="assets/images/guitar-icon.png" width="30px" height="30px" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Guitars
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Electronic Guitars</a></li>
+                          <li><a class="dropdown-item" href="#">Acoustic Guitars</a></li>
+                          <li><a class="dropdown-item" href="#">Acoustic Electronic Guitars</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Bass</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Drums</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Keyboards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">DJ & Lightning</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Used gear</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Clearance</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- end navbar -->
+          <!-- start banner -->
+          <div class="container">
+              <div class="mainImg">
+                <div class="imgDiv float-start" style="display: inline-block; ">
+                    <img src="" id="getimg" alt="" style="width: 100%; height: 100%;" >
+                </div>
+                <div class="imgDiv float-end" style="border: none;" >
+                    <span>Description</span>
+                    <p id="getdesc"></p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            
+              <div class="formDiv">
+                  <div id="formDiv1" class="formDiv1">
+                    <form id="myform">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="fnm" aria-describedby="emailHelp">
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                          <input type="text" class="form-control" id="lnm">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Card Number</label>
+                            <input type="text" class="form-control" id="cn">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="eml" aria-describedby="emailHelp">
+                            
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="psw">
+                          </div>
+                        <button type="button" onclick="onReview()" class="btn btn-primary btnColor">Submit</button>
+                      </form>
+                  </div>
+                  <div id="formDiv2" class="formDiv2">
+                      <label for="">First Name:</label>
+                      <p id="p1"></p>
+                      <label for="">Last Name:</label>
+                      <p id="p2"></p>
+                      <label for="">Card Number:</label>
+                      <p id="p3"></p>
+                      <label for="">Email:</label>
+                      <p id="p4"></p>
+                      <label for="">Passwors:</label>
+                      <p id="p5"> </p>
+                      <button type="button" onclick="getEdit()" class="btn btn-primary btnColor">Edit</button>
+                      <button type="button" onclick="nextPage()" class="btn btn-primary btnColor">Buy</button>
+                  </div>
+             </div>
+
+          </div>
+         
+          <!-- end banner -->
+    </div>
+    
+    <script src="assets/bootstrap-dist/js/bootstrap.min.js"></script>
+    <script src="buyguiter.js"></script>
+</body>
+</html>
